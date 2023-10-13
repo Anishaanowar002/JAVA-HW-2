@@ -1,0 +1,43 @@
+Assignment 2:
+public class Car {
+    private int id;
+    private String make;
+    private String model;
+    private int yearOfManufacture;
+    private String color;
+    private double price;
+    private String registrationNumber;
+
+   
+}
+Car[] cars = new Car[10]; // You can choose the array size accordingly
+
+cars[0] = new Car(1, "Toyota", "Camry", 2020, "Blue", 25000.0, "ABC123");
+cars[1] = new Car(2, "Honda", "Civic", 2018, "Red", 20000.0, "XYZ789");
+
+# Vehicle Management System
+
+This project is a simple Vehicle Management System implemented in Java. It demonstrates the use of object-oriented programming concepts, including inheritance and polymorphism, to model different types of vehicles with various engines and manufacturers.
+
+### Development Environment
+
+- Programming Language: Java
+- IDE: [SUBLIME TEXT 3]
+- Version Control: Git
+- GitHub Repository: https://github.com/Anishaanowar002/HW-2-JAVA
+
+### Project Structure
+The project consists of the following classes:
+- Engine, CombustionEngine, ElectricEngine, and HybridEngine to represent different engine types.
+- Manufacture to store manufacturer information.
+- Vehicle as an abstract class with common attributes and an abstract method `showCharacteristics()`.
+- Subclasses of `Vehicle`: `ICEV`, `BEV`, and `HybridV`, representing different types of vehicles.
+
+### Usage
+1. Clone this repository to your local machine.
+2. Open the project in your preferred IDE.
+3. Run the `Main` class to demonstrate the characteristics of different vehicles.
+
+### Contributors
+
+- Anisha Anowar
